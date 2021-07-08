@@ -1,0 +1,11 @@
+{
+    "version": 3,
+    "mappings": "AEEA,AAAA,MAAM,EFCN,QAAQ,CEDD;EACH,MAAM,EAAE,KAAK;EACb,KAAK,EDHG,OAAgB;ECIxB,UAAU,EAAE,SAAS;CAOxB;;AAVD,AAII,MAJE,CAIF,MAAM,EFHV,QAAQ,CEGJ,MAAM,CAAC;EACH,UAAU,EDPJ,OAAiB;CCW1B;;AATL,AAMQ,MANF,CAIF,MAAM,AAED,OAAO,EFLhB,QAAQ,CEGJ,MAAM,AAED,OAAO,CAAC;EACL,OAAO,EAAE,WAAW;CACvB;;AFPT,AAAA,QAAQ,CAAC;EAEN,UAAU,EAAE,UAAU;EACtB,UAAU,EAAE,GAAG;EACf,KAAK,EAAE,GAAU;CACnB",
+    "sources": [
+        "mark-box.scss",
+        "_variables.scss",
+        "_header.scss"
+    ],
+    "names": [],
+    "file": "mark-box.css"
+}

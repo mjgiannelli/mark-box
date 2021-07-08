@@ -1,0 +1,20 @@
+header, .contact {
+  height: 100vh;
+  color: #be2323;
+  background: lightblue;
+}
+
+header button, .contact button {
+  background: #8f549b;
+}
+
+header button::after, .contact button::after {
+  content: 'Hellloooo';
+}
+
+.contact {
+  background: lightcoral;
+  background: red;
+  width: 80%;
+}
+/*# sourceMappingURL=mark-box.css.map */
