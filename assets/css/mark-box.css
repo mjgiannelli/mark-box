@@ -1,20 +1,74 @@
-header, .contact {
-  height: 100vh;
-  color: #be2323;
-  background: lightblue;
+/* add default's to weppage */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
 }
 
-header button, .contact button {
-  background: #8f549b;
+body {
+  min-height: 100vh;
 }
 
-header button::after, .contact button::after {
-  content: 'Hellloooo';
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.contact {
-  background: lightcoral;
-  background: red;
-  width: 50%;
+.flex.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.flex.center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex.start {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.flex.end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.border {
+  border: solid .1rem black;
+}
+
+h1 {
+  font-size: 3.2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+  font-size: 2.08rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+h5 {
+  font-size: 1.28rem;
+}
+
+h6 {
+  font-size: 1.12rem;
 }
 /*# sourceMappingURL=mark-box.css.map */
