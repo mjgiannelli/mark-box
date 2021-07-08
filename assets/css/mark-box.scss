@@ -14,6 +14,12 @@ body { min-height: 100vh; }
     &.column {
         flex-direction: column;
     }
+    &.row-rev {
+        flex-direction: row-reverse;
+    }
+    &.column-rev {
+        flex-direction: column-reverse;
+    }
     &.center {
         justify-content: center;
     }
@@ -52,6 +58,40 @@ h5 {
 
 h6 {
     font-size: 1.12rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+a {
+    font-size: 1.6rem;
+}
+
+li {
+    font-size: 1.6rem;
+}
+
+.btn {
+    font-size: 1.6rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    padding: .2rem 1rem;
+    border-radius: .7rem;
+    border: .1rem solid black; 
+}
+
+.center {
+    text-align: center;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
 }
 
 header {

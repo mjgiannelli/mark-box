@@ -26,6 +26,20 @@ body {
           flex-direction: column;
 }
 
+.flex.row-rev {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+.flex.column-rev {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+}
+
 .flex.center {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -70,5 +84,39 @@ h5 {
 
 h6 {
   font-size: 1.12rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+a {
+  font-size: 1.6rem;
+}
+
+li {
+  font-size: 1.6rem;
+}
+
+.btn {
+  font-size: 1.6rem;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: .2rem 1rem;
+  border-radius: .7rem;
+  border: .1rem solid black;
+}
+
+.center {
+  text-align: center;
+}
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
 }
 /*# sourceMappingURL=mark-box.css.map */
