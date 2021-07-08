@@ -78,13 +78,14 @@ li {
 }
 
 .btn {
+    display: inline-block;
     font-size: 1.6rem;
     text-align: center;
     width: auto;
     height: auto;
     padding: .2rem 1rem;
     border-radius: .7rem;
-    border: .1rem solid black; 
+    border: .1rem solid grey; 
 }
 
 .center {
@@ -102,6 +103,7 @@ li {
 .row {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .col-1 {
@@ -143,3 +145,4 @@ li {
 .col-10 {
     width: 100%
 }
+
