@@ -1,9 +1,22 @@
 @import './variables';
 @import './header';
 
+/* add default's to weppage */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body { min-height: 100vh; }
+
 .contact {
    @extend header;
    background: lightcoral;
    background: red;
-   width: 100% - 20%;
+   width: $backgroundwidth - 50%;
 }
+
+
